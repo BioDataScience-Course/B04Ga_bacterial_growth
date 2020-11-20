@@ -1,12 +1,22 @@
 La croissance bactérienne
 ================
 
+## Avant-propos
+
+Les consignes sont reprises dans ce document, ainsi que sous forme de
+commentaires dans les différents fichiers. Elles sont susceptibles
+d’évoluer. N’hésitez pas à vérifier le lien suivant afin de voir si
+des modifications n’y ont pas été apportées :
+<https://github.com/BioDataScience-Course/B04Gb_bacterial_growth>
+
 ## Contexte
 
-Des scientifiques ont réalisé une culture bactérienne. Ils tentent de
-modéliser la croissance bactérienne mais n’ont pas vos connaissances
-afin d’y arriver. Aidez les scientifiques à modéliser les données qu’ils
-ont obtenus.
+Des scientifiques ont réalisé une culture bactérienne et tentent de la
+modéliser. Malheureusement, ceux-ci n’ont pas vos connaissances et ils
+vous demandent de les aider à modéliser les données qu’ils ont obtenues.
+
+A partir de leurs données (`growth_curve.tsv`) disponiblent dans le
+dossier `data`, le graphique suivant peut-être réalisé.
 
 ``` r
 bacteria <- read("data/growth_curve.tsv")
@@ -27,8 +37,11 @@ chart(bacteria, growth_log ~ time) +
 
 ## Objectif
 
-Réalisez un cahier de laboratoire afin de mettre en avant le meilleur
-modèle pour modéliser la croissance bactérienne qui vous est proposée.
-Le jeu de données est mis à votre disposition dans le dossier `data` .
+Ce projet est un projet **individuel**, **court** et **libre** qui doit
+être **terminé pour la fin du module 4**.
 
-Justifiez le choix du meilleur modèle
+Complétez le cahier de laboratoire (`bacterie_notebook.Rmd`) présent
+dans le dossier `docs` en réalisant trois modèles non linéaire pour
+essayer de modéliser la croissance bactérienne.
+
+Sélectionnez le meilleur modèle et justifiez votre choix.
