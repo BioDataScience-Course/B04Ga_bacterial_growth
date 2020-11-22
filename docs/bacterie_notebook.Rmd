@@ -2,5 +2,5 @@
 title: "Cahier de Laboratoire  : Croissance Bactérienne"
 author: '...'
 date: "..."
-output: html_notebook
+output: html_document
 ---
