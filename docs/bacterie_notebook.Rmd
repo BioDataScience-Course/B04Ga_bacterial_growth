@@ -1,6 +1,0 @@
----
-title: "Cahier de Laboratoire  : Croissance Bactérienne"
-author: '...'
-date: "..."
-output: html_document
----
